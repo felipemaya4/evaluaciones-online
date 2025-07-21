@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes de Quices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reportes de Quices por Quiz</h1>
+
+        <div class="form-group">
+            <label for="quizSelector">Selecciona un Quiz:</label>
+            <select id="quizSelector">
+                <option value="">-- Selecciona un Quiz --</option>
+            </select>
+        </div>
+
+        <div id="resultsTableContainer" style="display: none;">
+            <h2>Resultados para <span id="selectedQuizName"></span></h2>
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Nombre del Participante</th>
+                        <th>ID del Participante</th>
+                        <th>Puntuación</th>
+                        <th>Fecha y Hora</th>
+                        <th>Detalles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+            <p id="noResultsMessage" style="display: none; color: #555;">No hay resultados para este quiz aún.</p>
+        </div>
+        <div id="links">
+            <a href="quiz.html">Tomar un Quiz</a> |
+            <a href="index.html">Inicio</a>
+        </div>
+    </div>
+
+    <div class="modal" id="detailsModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Detalles del Quiz: <span id="modalQuizName"></span></h2>
+            <p><strong>Usuario:</strong> <span id="modalUserName"></span>
+               (ID: <span id="modalUserId"></span>)</p>
+            <p><strong>Puntuación Final:</strong> <span id="modalScore"></span> de <span id="modalTotalQuestions"></span></p>
+            <p><strong>Fecha:</strong> <span id="modalTimestamp"></span></p>
+            <hr>
+            <div class="modal-body" id="modalAnswersGiven">
+                <h3>Respuestas:</h3>
+                </div>
+        </div>
+    </div>
+
+    <script src="reports.js"></script>
+</body>
+</html>

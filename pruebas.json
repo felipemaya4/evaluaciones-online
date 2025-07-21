@@ -1,0 +1,108 @@
+[
+  {
+    "id": "1752900987841",
+    "name": "Quiz de Capitales del Mundo",
+    "questions": [
+      {
+        "question": "¿Cuál es la capital de Francia?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Berlín", "Madrid", "París", "Roma"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la capital de Japón?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Pekín", "Seúl", "Tokio", "Bangkok"],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+    "id": "1752901032631",
+    "name": "Quiz de Animales",
+    "questions": [
+      {
+        "question": "¿Qué animal es conocido como el rey de la selva?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Tigre", "León", "Elefante", "Jirafa"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Identifica este animal marino:",
+        "isImage": true,
+        "imageFileName": "animal_marino.webp",
+        "answers": ["Delfín", "Ballena", "Pulpo", "Tiburon"],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+  "id": "1752877463262",
+  "name": "evaluacion grado tercero",
+  "questions": [
+    {
+      "question": "como se dice tiburon en ingles",
+      "isImage": false,
+      "imageFileName": "",
+      "answers": [
+        "shark",
+        "sharr",
+        "aaaa",
+        "colombia"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿A que pais pertenece esta bandera?",
+      "isImage": true,
+      "imageFileName": "flag_of_colombia.svg",
+      "answers": [
+        "colombia",
+        "cascas",
+        "asvavvvvvva",
+        "cavvadvadscvasv"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "como se dice ballena en ingles",
+      "isImage": false,
+      "imageFileName": "",
+      "answers": [
+        "ballenato",
+        "killer",
+        "mantaray",
+        "whale"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "como se dice pez payaso en ingles",
+      "isImage": false,
+      "imageFileName": "",
+      "answers": [
+        "clownfish",
+        "jurel",
+        "parrotfish",
+        "eal"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "cuanto es 5 x 5",
+      "isImage": false,
+      "imageFileName": "",
+      "answers": [
+        "30",
+        "23",
+        "25",
+        "50"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
+]

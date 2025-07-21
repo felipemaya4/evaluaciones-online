@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1752900987841",
+    "name": "Quiz de Capitales del Mundo",
+    "questions": [
+      {
+        "question": "¿Cuál es la capital de Francia?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Berlín", "Madrid", "París", "Roma"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la capital de Japón?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Pekín", "Seúl", "Tokio", "Bangkok"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de estas banderas es la de Brasil?",
+        "isImage": true,
+        "imageFileName": "bandera_brasil.png",
+        "answers": ["Bandera A", "Bandera B", "Bandera C", "Bandera D"],
+        "correctAnswer": 0
+      }
+    ]
+  },
+  {
+    "id": "1752901032631",
+    "name": "Quiz de Animales",
+    "questions": [
+      {
+        "question": "¿Qué animal es conocido como el rey de la selva?",
+        "isImage": false,
+        "imageFileName": "",
+        "answers": ["Tigre", "León", "Elefante", "Jirafa"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Identifica este animal marino:",
+        "isImage": true,
+        "imageFileName": "animal_marino.jpg",
+        "answers": ["Delfín", "Ballena", "Pulpo", "Tiburon"],
+        "correctAnswer": 2
+      }
+    ]
+  }
+]

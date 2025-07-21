@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Quices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crear y Gestionar Quices</h1>
+
+        <div class="form-group">
+            <label for="quizName">Nombre del Quiz:</label>
+            <input type="text" id="quizName" placeholder="Ej: Quiz de Historia Mundial" required>
+        </div>
+
+        <form id="questionForm">
+            
+            <button type="button" id="addQuestionBtn">Agregar Nueva Pregunta</button>
+            <button type="submit" id="saveQuizBtn">Guardar Quiz</button>
+            <button type="button" id="clearFormBtn">Limpiar Formulario</button>
+        </form>
+
+        <hr>
+
+        <h2>Quices Existentes</h2>
+        <div id="existingQuizzes">
+            <p>Cargando quices...</p>
+        </div>
+        <div class="form-group">
+            <label for="quizToExportSelector">Exportar un Quiz:</label>
+            <select id="quizToExportSelector">
+                <option value="">-- Selecciona un Quiz para Exportar --</option>
+            </select>
+            <button type="button" id="exportQuizBtn">Exportar Quiz</button>
+        </div>
+        <div id="links">
+            <a href="quiz.html">Tomar un Quiz</a> |
+            <a href="reports.html">Ver Reportes de Quices</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

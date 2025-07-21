@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomar un Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="pageTitle">Bienvenido al Sistema de Quices</h1>
+
+        <div id="identificationSection">
+            <h2>Identifícate para comenzar</h2>
+            <form id="identificationForm">
+                <div class="form-group">
+                    <label for="userName">Tu Nombre:</label>
+                    <input type="text" id="userName" required placeholder="Ej: Juan Pérez">
+                </div>
+                <div class="form-group">
+                    <label for="identificationNumber">Número de Identificación:</label>
+                    <input type="text" id="identificationNumber" required placeholder="Ej: 123456789">
+                </div>
+                <button type="submit" id="startSessionBtn">Iniciar</button>
+            </form>
+            <p id="identificationMessage" style="color: red; margin-top: 10px;"></p>
+        </div>
+
+        <div id="quizSelectionSection" style="display: none;">
+            <h2>Selecciona un Quiz</h2>
+            <p id="identifiedUser"></p>
+            <div id="availableQuizzes">
+                <p>Cargando quices...</p>
+            </div>
+            <button id="changeUserBtn">Cambiar de Usuario</button>
+            <hr>
+            <h3>Tus Resultados Anteriores</h3>
+            <div id="previousResults">
+                <p>No has tomado quices aún.</p>
+            </div>
+        </div>
+
+        <div id="quizTakingSection" style="display: none;">
+            <h2 id="currentQuizTitle"></h2>
+            <div id="quizContent">
+                </div>
+            <div id="quizControls">
+                <button id="prevBtn" style="display: none;">Anterior</button>
+                <button id="nextBtn">Siguiente</button>
+                <button id="submitQuizBtn" style="display: none;">Terminar Quiz</button>
+            </div>
+        </div>
+
+        <div id="resultsContainer" style="display: none;">
+            <h2>Resultados del Quiz</h2>
+            <p>Puntuación: <span id="scoreDisplay">0</span> de <span id="totalQuestionsDisplay">0</span></p>
+            <button id="retakeQuizBtn">Repetir Quiz</button>
+            <button id="backToSelectionBtn">Volver a Seleccionar Quiz</button>
+        </div>
+        <div id="links">
+            <a href="index.html">Inicio</a> |
+            <a href="reports.html">Ver Reportes de Quices</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
